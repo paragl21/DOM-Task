@@ -1,6 +1,7 @@
 function NewText() {
     const text = document.querySelector("#text")
     text.innerHTML = "This is New Paragraph"
+    
 }
 function OldText() {
     document.querySelector("#text").textContent = "This is Old Paragraph"
@@ -34,3 +35,11 @@ function backgroundChange() {
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     document.body.style.backgroundColor = randomColor;
 }
+
+function updateCount() {
+    const inputText = document.getElementById("inputText").value.length
+    const charCount = document.getElementById("charCount")
+    console.log("UpdateCount",charCount.innerHTML = inputText)
+  
+}
+

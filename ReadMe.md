@@ -25,7 +25,7 @@
 
 6. Real-Time Character Counter
 
-- [ ] Show the number of characters typed in an input field.
+- [x] Show the number of characters typed in an input field.
 
 
 7. Create a Simple To-Do List
