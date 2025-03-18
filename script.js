@@ -14,3 +14,9 @@ function addTask() {
     li.textContent = "New Task"
     ul.appendChild(li);
 }
+
+function removeTask() {
+    const ul = document.querySelector
+    ("li:last-child")
+    ul.remove()
+}

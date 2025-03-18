@@ -1,11 +1,11 @@
 1. Change Text Content
 
-  - [ ] Create a button that changes the text inside a <p> tag when clicked.
+  - [x] Create a button that changes the text inside a <p> tag when clicked.
 
 
 2. Add a New Element
 
- * [ ] Add a new < li > item inside an existing < ul > list when clicking a button.
+ * [x] Add a new < li > item inside an existing < ul > list when clicking a button.
 
 
 3. Remove an Element
