@@ -20,7 +20,7 @@
 
 5. Change Background Color
 
-- [ ] Change the background color of the page when clicking a button.
+- [x] Change the background color of the page when clicking a button.
 
 
 6. Real-Time Character Counter

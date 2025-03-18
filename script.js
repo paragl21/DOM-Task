@@ -28,3 +28,9 @@ function hide() {
 function unhide() {
     document.querySelector("#hide").style.visibility = "visible"
 }
+
+function backgroundChange() {    
+    const colors = ["blue", "red", "grey", "green", "yellow"];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.backgroundColor = randomColor;
+}
