@@ -15,7 +15,7 @@
 
 4. Toggle Visibility
 
-- [ ] Show and hide a paragraph using a button.
+- [x] Show and hide a paragraph using a button.
 
 
 5. Change Background Color
