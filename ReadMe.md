@@ -1,0 +1,49 @@
+1. Change Text Content
+
+  - [ ] Create a button that changes the text inside a <p> tag when clicked.
+
+
+2. Add a New Element
+
+ * [ ] Add a new < li > item inside an existing < ul > list when clicking a button.
+
+
+3. Remove an Element
+
+  - [ ] Click a button to remove the last < li > from a list.
+
+
+4. Toggle Visibility
+
+- [ ] Show and hide a paragraph using a button.
+
+
+5. Change Background Color
+
+- [ ] Change the background color of the page when clicking a button.
+
+
+6. Real-Time Character Counter
+
+- [ ] Show the number of characters typed in an input field.
+
+
+7. Create a Simple To-Do List
+
+- [ ] Add tasks and remove them by clicking.
+
+
+8. Filter List Items
+
+- [ ] Filter through a list of items based on user input.
+
+
+
+9. Image Slider
+
+- [ ] Click next/prev buttons to change the displayed image.
+
+
+10. Countdown Timer
+
+- [ ] Set a timer that counts down from 10 seconds and displays "Time's up!" when finished.
