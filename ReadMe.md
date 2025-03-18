@@ -10,7 +10,7 @@
 
 3. Remove an Element
 
-  - [ ] Click a button to remove the last < li > from a list.
+  - [x] Click a button to remove the last < li > from a list.
 
 
 4. Toggle Visibility
