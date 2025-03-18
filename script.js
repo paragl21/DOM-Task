@@ -22,7 +22,9 @@ function removeTask() {
 }
 
 function hide() {
-    // document.getElementById("hide").style.visibility = "hidden";
     const hide = document.querySelector("#hide")
     hide.style.visibility = "hidden";
+}
+function unhide() {
+    document.querySelector("#hide").style.visibility = "visible"
 }
