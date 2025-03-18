@@ -43,3 +43,19 @@ function updateCount() {
   
 }
 
+
+
+    
+    function AddTask() {
+        const inputtask = document.getElementById("inputtask").value
+        const li = document.createElement("li")
+        
+
+        li.innerHTML = inputtask + '<button onclick ="this.parentElement.remove()">Remove</button>'
+        document.getElementById('addlist').appendChild(li)
+        
+        
+}
+
+
+

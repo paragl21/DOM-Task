@@ -30,7 +30,7 @@
 
 7. Create a Simple To-Do List
 
-- [ ] Add tasks and remove them by clicking.
+- [x] Add tasks and remove them by clicking.
 
 
 8. Filter List Items
