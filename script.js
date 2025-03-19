@@ -1,3 +1,5 @@
+                            // Task-1
+
 function NewText() {
     const text = document.querySelector("#text")
     text.innerHTML = "This is New Paragraph"
@@ -8,6 +10,7 @@ function OldText() {
 
 }
 
+                            // Task-2 & 3
 
 function addTask() {
     const ul = document.getElementById("list")
@@ -22,6 +25,8 @@ function removeTask() {
     ul.remove()
 }
 
+                            // Task-4
+
 function hide() {
     const hide = document.querySelector("#hide")
     hide.style.visibility = "hidden";
@@ -30,11 +35,15 @@ function unhide() {
     document.querySelector("#hide").style.visibility = "visible"
 }
 
+                            // Task-5
+
 function backgroundChange() {    
     const colors = ["blue", "red", "grey", "green", "yellow"];
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     document.body.style.backgroundColor = randomColor;
 }
+
+                            // Task-6
 
 function updateCount() {
     const inputText = document.getElementById("inputText").value.length
@@ -44,18 +53,31 @@ function updateCount() {
 }
 
 
+                            // Task-7
 
-    
-    function AddTask() {
-        const inputtask = document.getElementById("inputtask").value
-        const li = document.createElement("li")
-        
 
-        li.innerHTML = inputtask + '<button onclick ="this.parentElement.remove()">Remove</button>'
-        document.getElementById('addlist').appendChild(li)
-        
-        
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("AddTaskButton").addEventListener("click", AddTask);
+});
+
+function AddTask() {
+    const inputElement = document.getElementById("inputtask");
+    const inputtask = inputElement.value 
+
+
+    const li = document.createElement("li");
+    li.innerHTML = inputtask;
+
+    const btn = document.createElement("button")
+    btn.innerHTML = "Remove"
+
+    const container = document.createElement("div")
+    container.appendChild(li)
+    container.appendChild(btn)
+     
+    btn.addEventListener("click", function() {
+        container.remove()
+    })
+    document.getElementById("addlist").appendChild(container)
 }
-
-
 
