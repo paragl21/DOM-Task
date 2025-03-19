@@ -6,10 +6,13 @@
     <title><Dom-task></Dom-task></title>
 </head>
 <body>
+
+    <!-- Task-1 -->
     <p id="text">This is Old Paragraph</p>
     <button onclick="NewText()">New text</button>
     <button onclick="OldText()">Old text</button>
 
+    <!-- Task-2 & 3 -->
     <ul id="list">
         <li>Task-1</li>
         <li>Task-2</li>
@@ -18,27 +21,38 @@
     <button onclick="addTask()">Add Task</button>
     <button onclick="removeTask()">Remove Task</button>
 
+    <!-- Task-4 -->
     <p id="hide">Hide Me!</p>
     <button onclick="hide()">Hide</button>
     <button onclick="unhide()">Unhide</button>
 
-
+    <!-- Task-5 -->
     <button onclick="backgroundChange()" id="backGround" style="border-radius: 5px; display: block; margin:10px; padding: 5px 10px;">
         Change background</button>
 
+    <!-- Task-6 -->
     <label for="input text">Type here...</label>
     <input type="text" id="inputText" value="" oninput="updateCount()" maxlength="50">
     <p>Charecter Typed: <span id="charCount">0</span>/50</p>
 
+    <!-- Task-7 -->
     <h2 style="text-align: center;">TO DO LIST</h2>
     <label for="inputtask" style="font-size: larger; font-weight: bolder;">Add Tasks:</label><br>
-
     <input type="text" id="inputtask" placeholder="Enter Tasks">
     <button id="AddTaskButton">Add</button>
-
     <ul id="addlist"></ul>
 
+<!-- Task-8 -->
     
+    <h2 style="text-align: center;">Search Input</h2>
+    <input type="search" value="" id="searchtask" placeholder="Search here...">
+
+    <ul id="list">
+        <li class="list-items">apple</li>
+        <li class="list-items">banana</li>
+        <li class="list-items">carrot</li>
+    </ul>
+
     <script src="script.js"></script>
 </body>
 </html>

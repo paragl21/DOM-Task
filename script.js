@@ -64,7 +64,6 @@ function AddTask() {
     const inputElement = document.getElementById("inputtask");
     const inputtask = inputElement.value 
 
-
     const li = document.createElement("li");
     li.innerHTML = inputtask;
 
@@ -81,3 +80,22 @@ function AddTask() {
     document.getElementById("addlist").appendChild(container)
 }
 
+
+                            // Task-8
+
+const searchbox = document.getElementById("searchtask")
+const listitems = document.querySelectorAll(".list-items")
+
+searchbox.addEventListener("input",function() {
+    searchval = searchbox.value.toLowerCase()
+    console.log("searchbox",searchval);
+        
+    listitems.forEach(items => {
+    const textval = items.innerHTML.toLowerCase()
+    if(textval.includes(searchval)){
+        items.style.display = "block"
+    } else {
+        items.style.display = "none"
+    }
+})
+})

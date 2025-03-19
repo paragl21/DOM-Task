@@ -35,7 +35,7 @@
 
 8. Filter List Items
 
-- [ ] Filter through a list of items based on user input.
+- [x] Filter through a list of items based on user input.
 
 
 
