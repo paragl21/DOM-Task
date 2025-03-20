@@ -88,14 +88,29 @@ const listitems = document.querySelectorAll(".list-items")
 
 searchbox.addEventListener("input",function() {
     searchval = searchbox.value.toLowerCase()
-    console.log("searchbox",searchval);
+    // console.log("searchbox",searchval);
+    // console.log("listitems",listitems);
+    
         
-    listitems.forEach(items => {
-    const textval = items.innerHTML.toLowerCase()
-    if(textval.includes(searchval)){
-        items.style.display = "block"
-    } else {
-        items.style.display = "none"
-    }
+    // listitems.forEach(items => {
+   
+    
+    const obj = listitems.length && [...listitems].map(iteam => 
+        iteam.innerHTML.toLowerCase())
+            const filteritem = obj.filter(objitem => objitem.includes(searchval));
+            console.log(filteritem);
+            
+            [...listitems].map((item,i) => {
+                item.style.display = filteritem.includes(obj[i]) ? "block" : "none";
+            })
+
+    
+
+    // if(textval.includes(searchval)){
+    //     items.style.display = "block"
+    // } else {
+    //     items.style.display = "none"
+    // }
 })
-})
+
+
